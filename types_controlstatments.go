@@ -35,11 +35,12 @@ Constants are declared like variables, but with the const keyword.
 Constants can be character, string, boolean, or numeric values.
 
 Constants cannot be declared using the := syntax.
+
+const Pi = 3.14
 */
 
 /* For
 Go has only one looping construct, the for loop.
-
 The basic for loop has three components separated by semicolons:
 
 the init statement: executed before the first iteration

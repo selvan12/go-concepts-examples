@@ -126,7 +126,7 @@ Retrieve an element:
 Delete an element:
 	delete(m, key)
 Test that a key is present with a two-value assignment:
-	lem, ok = m[key]
+	elem, ok = m[key]
 If key is in m, ok is true. If not, ok is false.
 If key is not in the map, then elem is the zero value for the map's element type.
 */
